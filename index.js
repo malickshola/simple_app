@@ -8,7 +8,7 @@ const text = process.env.TEXT || "DEFAULT";
 
 app.get("/", (req, res) =>
   res.send(`Hello World! I'm the updated file!
-The value of const text is ${text}
+The value of const text is ${text}, I'm deployed by beanstalk
 `)
 );
 
